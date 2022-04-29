@@ -56,18 +56,17 @@ a {
 }
 
 
-
 /* ############################################################# */
 /* Main content and alignment */
 /* ############################################################# */
 
 /* Flex the components within main element*/
-.mainContent, .topRow, .bottomRow {
+.main-content, .top-row, .bottom-row {
   display: flex;
 }
 
 /* Main content in the main element */
-.mainContent{
+.main-content{
   /* border: 1px solid red; */
   flex: auto;
   justify-content: space-between;
@@ -75,13 +74,13 @@ a {
 }
 
 /* Top row of main content */
-.topRow{
+.top-row{
   flex: 3;
   border: 1px solid blue;
 }
 
 /* Bottom row of the main content */
-.bottomRow{
+.bottom-row{
   flex: 2;
   border: solid 1px orange;
 }

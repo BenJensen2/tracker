@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './projectDetail.module.css'
+import './projectDetail.scss'
 
 const ProjectDetail = () => {
   return (

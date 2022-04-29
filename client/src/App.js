@@ -1,4 +1,4 @@
-import styles from './App.module.css'
+import './App.scss'
 import Sidebar from './components/Sidebar/Sidebar'
 import Task from './components/Task/Task'
 import Calendar from './components/Calendar/Calendar'
@@ -7,14 +7,14 @@ import Hierarchy from './components/Hierarchy/Hierarchy'
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div className='App'>
       <Sidebar />
-      <div className={styles.mainContent}>
-        <div className={styles.topRow}>
+      <div className='main-content'>
+        <div className='top-row'>
           <Task />
           <Calendar />
         </div>
-        <div className={styles.bottomRow}>
+        <div className='bottom-row'>
           <Hierarchy />
         </div>
       </div>

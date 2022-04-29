@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './calendar.module.css'
+import './calendar.scss'
 
 const Calendar = () => {
   return (
-    <div className={styles.calendar}>
+    <div className='.calendar'>
     </div>
   )
 }
