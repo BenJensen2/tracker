@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './projectDetail.module.css'
 
 const ProjectDetail = () => {
   return (
-    <div className="project-detail">
+    <div>
     </div>
   )
 }

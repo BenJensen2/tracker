@@ -4,6 +4,7 @@
   border: 1px solid green;
   width: 200px;
   padding: 5px;
+  height: 100%;
 }
 
 /* Flex the title with spacing on bottom */

@@ -1,8 +1,9 @@
 import React from 'react'
+import style from './task.module.css'
 
 const Task = () => {
   return (
-    <div className="task">
+    <div className={style.task}>
     </div>
   )
 }

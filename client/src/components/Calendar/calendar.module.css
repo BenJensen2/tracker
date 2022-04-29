@@ -1,0 +1,6 @@
+/* Calendar within the top row of the main content */
+/* Calendar should have a little more width than the issues */
+.calendar{
+  flex: 5;
+  border: 1px solid purple;
+}
