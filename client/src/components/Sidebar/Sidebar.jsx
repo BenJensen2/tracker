@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './sidebar.scss'
 
 // Shows Hierarchy of Projects, Sprints and Tasks

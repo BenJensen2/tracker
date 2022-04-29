@@ -3,10 +3,6 @@ import './projectDetail.scss'
 
 const ProjectDetail = ({closePopUpWrapper}) => {
 
-
-
-
-  const projectFields = ["Description", "Projected Start Date", "Projected End Date"]
   return (
     <div className="project-detail-form">
       <div className="form-field">

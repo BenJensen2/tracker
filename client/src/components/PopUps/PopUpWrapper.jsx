@@ -4,7 +4,7 @@ import ProjectDetail from './ProjectDetail'
 
 const PopUpWrapper = ({ showPopUp, setShowPopUp }) => {
   const closePopUpWrapper = (e) => {
-    if (e.target.className == "pop-up-wrapper" || e.target.className == "danger-button") {
+    if (e.target.className === "pop-up-wrapper" || e.target.className === "danger-button") {
       setShowPopUp(false)
     }
   }
