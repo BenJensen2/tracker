@@ -1,14 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './sidebar.scss'
 
 // Shows Hierarchy of Projects, Sprints and Tasks
-const Sidebar = () => {
+const Sidebar = ({setShowPopUp}) => {
+
+  const newProjectFormHandler = (e) => {
+    setShowPopUp(true)
+  }
 
   return (
     <div className='sidebar'>
       <div className='sidebar-title'>
         <h3>Projects</h3>
-        <button className='submission-button'>New Project</button>
+        <button className='submission-button' onClick={newProjectFormHandler}>New Project</button>
       </div>
       <div className='sidebar-projects'>
         <ul>

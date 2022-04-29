@@ -1,12 +1,10 @@
-.project-detail{
-  
-}
-
 .project-detail-form{
-  display: none;
+  display: inline-block;
+  z-index: 2;
   width: 200px;
   font-size: 15px;
   margin-bottom: -10px;
+  text-align: left;
 }
 
 .project-detail-form input{
