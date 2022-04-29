@@ -1,0 +1,65 @@
+/* Sidebar within the main screen */
+/* Standard width, common padding */
+.sidebar{
+  border: 1px solid green;
+  width: 200px;
+  padding: 5px;
+}
+
+/* Flex the title with spacing on bottom */
+.sidebar-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* ############################################################# */
+/* Projects within the sidebar */
+/* ############################################################# */
+
+/* Standard padding but keep right edge tight */
+.sidebar-projects{
+  padding: 5px;
+  padding-right: 0px;
+}
+
+.project-title{
+  margin-bottom: 2px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* New Project Button */
+.project-title .submission-button{
+  font-size: 9px;
+  padding: 0px 5px 0px 5px;
+}
+
+/* ############################################################# */
+/* Sprints within the project */
+/* ############################################################# */
+
+/* Standard padding but keep right edge tight */
+/* Add space on bottom */
+.project-sprints{
+  padding: 5px;
+  padding-right: 0px;
+  margin-bottom: 15px;
+}
+
+.sprint-title{
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+/* ############################################################# */
+/* Tasks within the sprint */
+/* ############################################################# */
+
+.sprint-tasks{
+  padding: 5px;
+  padding-right: 0px;
+}
+
